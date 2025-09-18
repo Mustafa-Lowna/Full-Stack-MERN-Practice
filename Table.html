@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Table</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <style>
+      h2 {
+        color: #650000;
+        text-align: center;
+        text-shadow: 1px 1px 5px #650000;
+        text-transform: uppercase;
+      }
+      table {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 900px;
+        margin: 20px auto;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+      }
+      tr.header-row {
+        background: linear-gradient(90deg, #691414, #650000);
+        color: white;
+        font-weight: 600;
+      }
+      tr.data-row {
+        background-color: #ffffff;
+      }
+      tr.data-row {
+        background-color: #ffffff;
+      }
+      tr.data-row:hover {
+        background-color: #fef1f1 !important;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      th,
+      td {
+        padding: 14px 20px;
+        text-align: left;
+        vertical-align: middle !important;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Student Table</h2>
+    <table>
+      <tr class="header-row">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Mobile No.</th>
+        <th>Email</th>
+        <th>City</th>
+      </tr>
+      <tr class="data-row">
+        <td>4001</td>
+        <td>Sarah Khan</td>
+        <td>Information Technology</td>
+        <td>98765 67890</td>
+        <td>sarah.khan@example.com</td>
+        <td>Delhi</td>
+      </tr>
+      <tr class="data-row">
+        <td>4002</td>
+        <td>Bilal Ahmed</td>
+        <td>Marketing</td>
+        <td>91234 12345</td>
+        <td>bilal.ahmed@example.com</td>
+        <td>Karachi</td>
+      </tr>
+      <tr class="data-row">
+        <td>4003</td>
+        <td>Fatima Noor</td>
+        <td>Data Science</td>
+        <td>90123 67890</td>
+        <td>fatima.noor@example.com</td>
+        <td>Lahore</td>
+      </tr>
+      <tr class="data-row">
+        <td>4004</td>
+        <td>Ahmed Raza</td>
+        <td>Finance</td>
+        <td>93456 34567</td>
+        <td>ahmed.raza@example.com</td>
+        <td>Islamabad</td>
+      </tr>
+      <tr class="data-row">
+        <td>4005</td>
+        <td>Zainab Ali</td>
+        <td>Graphic Design</td>
+        <td>99876 98765</td>
+        <td>zainab.ali@example.com</td>
+        <td>Multan</td>
+      </tr>
+    </table>
+  </body>
+</html>
